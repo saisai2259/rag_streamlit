@@ -15,7 +15,7 @@ st.set_page_config(page_title="Chat with Multilpe PDF's💬")
 
 nlp = spacy.load("en_core_web_sm")
 sentence_model = SentenceTransformer('all-MiniLM-L6-v2')
-os.environ['GOOGLE_API_KEY'] = "AIzaSyBVi-KWLLyIT23lpIlb9zZ_eXKQVaJdhE0"
+os.environ['GOOGLE_API_KEY'] = "AIzaSyA5wDcudIdqaUjNXBvb7kyXX_AM6qre8_E"
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 
